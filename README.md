@@ -1,1 +1,2 @@
 # html-css
+Html is language that is used when web technology occurs it used to create websites, applications and and some softwares.There are elements of html that are used and also lists that are ordered and unordered lists we use these lists more on the internet and for example these lists are used when creating navigation of your website.There are links used in html for example (http:/www.example.co.za) 
