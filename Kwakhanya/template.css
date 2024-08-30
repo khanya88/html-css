@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+/*Navbar*/
+.navbar{
+    background-color: rgb(207, 181, 181);
+    margin-top: -20px;
+    padding: 10px;
+    color: rgb(244, 248, 248);
+    position: sticky; /*makes the navbar sticky*/
+    top: 0; /*Stick to the top of the viewport*/
+    z-index: 1000; /*Ensures it sites above other content*/
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between; /*Moves links to the right*/
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar-links{
+    list-style-type: none; /*removes bullet points*/
+    margin: 0;
+    padding: 0;
+    display: flex; /*puts links in a straight line*/
+}
+.navbar-links li{
+    margin-left: 20px; /*Creates spacing between links*/
+}
+.navbar-links a{
+    color: black; /*color for the links*/
+    text-decoration: none; /*removes the underline of lines*/
+}
+.navbar-links a:hover{
+    text-decoration: underline; /*creates the underline effect when hovering over links*/
+}
+
+/*text*/
+.link-text{
+    text-transform: capitalize;
+}
+/* this is the styling for the main name of the website */
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+.footer{
+    border: 0px solid black;
+    background-color: rgb(192, 182, 182);
+    margin-top: 80px;
+}
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text{
+    text-align: center;
+}
